@@ -19,11 +19,13 @@
 
   .contact_nav {
     width: 100%;
+    display: inline-block;
     justify-content: space-between;
   }
 
   .contact_nav a {
     margin: 0;
+    display: inline-block;
   }
 
   .navbar-collapse {
@@ -46,6 +48,7 @@
 @media (max-width: 576px) {
   .contact_nav a {
     margin: 0;
+    display: inline-block;
     font-size: 14px;
   }
 }
